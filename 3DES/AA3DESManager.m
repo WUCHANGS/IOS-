@@ -68,6 +68,7 @@
     
     ccStatus = CCCrypt(encryptOrDecrypt,
                        kCCAlgorithm3DES,
+                       //  IOS填充方式里面没有PKCS5Padding 可以这样写 kCCOptionPKCS7Padding | kCCOptionECBMode  实现PKCS5Padding
                        kCCOptionPKCS7Padding | kCCOptionECBMode,
                        vkey,//"123456789012345678901234", //key
                        kCCKeySize3DES,
