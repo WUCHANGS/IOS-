@@ -1,6 +1,5 @@
 //
-//  AA3DESManager.h
-//  AA3DESDemo
+//  W3DESManager.h
 //
 //  Created by Arlexovincy on 15/3/12.
 //  Copyright (c) 2015年 Arlexovincy. All rights reserved.
@@ -8,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AA3DESManager : NSObject
+@interface W3DESManager : NSObject
 
 /**
 *  3des加密

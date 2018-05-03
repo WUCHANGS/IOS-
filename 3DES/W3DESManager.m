@@ -1,17 +1,16 @@
 //
-//  AA3DESManager.m
-//  AA3DESDemo
+//  W3DESManager.m
 //
 //  Created by Arlexovincy on 15/3/12.
 //  Copyright (c) 2015年 Arlexovincy. All rights reserved.
 //
 
-#import "AA3DESManager.h"
+#import "W3DESManager.h"
 #import "GTMBase64.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonCrypto.h>
 
-@implementation AA3DESManager
+@implementation W3DESManager
 
 #pragma mark- 3des加密
 + (NSString*)getEncryptWithString:(NSString *)encryptString keyString:(NSString *)keyString ivString:(NSString *)ivString{
